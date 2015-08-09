@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff00"
+    android:orientation="vertical"
+    tools:context="com.example.latestnews.SavedHeadlines" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click a headline to view full story" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*to delete a headline long press that headline" 
+        android:textSize="12sp"
+        android:textColor="#ffff0000"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:divider="#ffb300"
+        android:dividerHeight="3dp"
+        tools:listitem="@layout/saved" >
+    </ListView>
+
+</LinearLayout>
+

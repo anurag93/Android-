@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.latestnews.MainActivity"
+    tools:ignore="MergeRootFrame" 
+    android:background="#ffffff00"
+    >
+
+    <GridView
+        android:id="@+id/gridView"
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:verticalSpacing="0dp"
+        android:horizontalSpacing="0dp"
+        android:numColumns="1"
+        tools:listitem="@layout/channels" >
+    </GridView>
+  
+</LinearLayout>
+

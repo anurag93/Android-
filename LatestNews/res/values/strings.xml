@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Latest News</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_headline_story">HeadlineStory</string>
+    <string name="title_activity_story_detail">StoryDetail</string>
+    <string name="Upload">upload</string>
+    <string name="Help">Help</string>
+    <string name="title_activity_headline_upload">HeadlineUpload</string>
+    <string name="Voice">voice</string>
+    <string name="title_activity_voice_control">VoiceControl</string>
+    <string name="title_activity_saveddownload">Saveddownload</string>
+    <string name="title_activity_saved_headlines">SavedHeadlines</string>
+    <string name="title_activity_saved_story">SavedStory</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/activity_headline_story.xml" />
+        <ignore path="res/layout/activity_story_detail.xml" />
+        <ignore path="res/layout/channels.xml" />
+        <ignore path="res/layout/headline.xml" />
+        <ignore path="res/layout/headline_view.xml" />
+        <ignore path="res/layout/list_item_title_navigation.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/activity_headline_story.xml" />
+        <ignore path="res/layout/activity_headline_upload.xml" />
+        <ignore path="res/layout/activity_saved_headlines.xml" />
+        <ignore path="res/layout/activity_saved_story.xml" />
+        <ignore path="res/layout/activity_saveddownload.xml" />
+        <ignore path="res/layout/activity_story_detail.xml" />
+        <ignore path="res/layout/activity_voice_control.xml" />
+        <ignore path="res/layout/channels.xml" />
+        <ignore path="res/layout/data.xml" />
+        <ignore path="res/layout/headline.xml" />
+        <ignore path="res/layout/headline_view.xml" />
+        <ignore path="res/layout/headlines.xml" />
+        <ignore path="res/layout/saved.xml" />
+        <ignore path="res/layout/story.xml" />
+    </issue>
+    <issue id="ScrollViewCount">
+        <ignore path="res/layout/activity_story_detail.xml" />
+    </issue>
+    <issue id="ScrollViewSize">
+        <ignore path="res/layout/activity_story_detail.xml" />
+    </issue>
+    <issue id="UseCompoundDrawables">
+        <ignore path="res/layout/channels.xml" />
+        <ignore path="res/layout/headline.xml" />
+    </issue>
+    <issue id="UselessLeaf">
+        <ignore path="res/layout/activity_story_detail.xml" />
+        <ignore path="res/layout/channels.xml" />
+        <ignore path="res/layout/headline_view.xml" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res/layout/channels.xml" />
+    </issue>
+</lint>

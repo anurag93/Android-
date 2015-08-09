@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<item android:id="@+id/Voice"
+          android:icon="@drawable/step0001"
+          android:title="@string/Voice"
+          android:showAsAction="ifRoom"/>
+<item android:id="@+id/home"
+          android:title="Home"
+          android:showAsAction="never"/>
+<item android:id="@+id/news"
+          android:title="News"
+          android:showAsAction="never"/>
+<item android:id="@+id/biz"
+          android:title="Business"
+          android:showAsAction="never"/>
+<item android:id="@+id/tech"
+          android:title="Technology"
+          android:showAsAction="never"/>
+<item android:id="@+id/sci"
+          android:title="Science"
+          android:showAsAction="never"/>
+<item android:id="@+id/spo"
+          android:title="Sports"
+          android:showAsAction="never"/>
+<item android:id="@+id/ent"
+          android:title="Entertainment"
+          android:showAsAction="never"/>
+<item android:id="@+id/art"
+          android:title="Art/Lifestyle"
+          android:showAsAction="never"/>
+<item android:id="@+id/fnd"
+          android:title="Food/Dining"
+          android:showAsAction="never"/>
+<item android:id="@+id/travel"
+          android:title="Travel"
+          android:showAsAction="never"/>
+
+
+</menu>
